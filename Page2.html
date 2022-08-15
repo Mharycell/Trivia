@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Colombia es...</title>
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+  <!-- CSS only -->
+</head>
+
+<body>
+  <h1>Trivia Colombia es...</h1>
+
+  <div class="section1">
+    <div class="container">
+      <div class="card">
+        <h2>
+          ¿En cuál parque natural de Colombia se encuentra este hermoso paraíso?
+        </h2>
+
+        <img class="image" src="./assets/Images/cañocristales.jpg" alt="caño cristales" />
+        <form>
+          <label for="question1answer1"> Parque del café
+          </label>
+          <input type="radio" onclick="validarPreguntaUno()" id="answer-1" name="question" value="Parque del café">
+          <label for="question1answer2">Parque sierra de la macarena
+          </label>
+          <input type="radio" onclick="validarPreguntaUno()" id="answer-2" name="question"
+            value="Parque sierra de la macarena">
+          <label for="question1answer3">Parque Tayrona</label>
+          <input type="radio" onclick="validarPreguntaUno()" id="answer-3" name="question" value="Parque tayrona">
+        </form>
+
+        <p class='respuestaCorrecta' id="respuesta"></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="section2">
+    <div class="container">
+      <div class="card">
+        <h2>
+          ¿En qué ciudad de Colombia se encuentra Ciudad perdida?
+        </h2>
+        <img class="image" src="./assets/Images/ciudadperdida.jpg" alt="ciudadperdida" />
+        <form>
+          <label for="question2Choice2">Cali</label>
+          <input type="radio" onclick="validarPreguntaDos()" id="choice1" name="question2" value="Cali">
+          <label for="question2Choice1">
+            Santa Marta
+          </label>
+          <input type="radio" onclick="validarPreguntaDos()" id="choice2" name="question2" value="Santa Marta">
+          <label for="question2Choice1">Pasto</label>
+          <input type="radio" onclick="validarPreguntaDos()" id="choice3" name="question2" value="Pasto">
+        </form>
+        <p id="respu"></p>
+      </div>
+    </div>
+  </div>
+  <div class="section3">
+    <div class="container">
+      <div class="card">
+        <h2>
+          ¿En cuál ciudad de Colombia te sentirías como en Brasil?
+        </h2>
+        <img class="image" src="./assets/Images/Cristo Rey.jpg" alt="Cristo Rey" />
+
+        <form>
+          <label for="question3answer1"> Cartagena
+          </label>
+          <input type="radio" onclick="validarPreguntaTres()" id="answer-1" name="question3" value="Cartagena">
+          <label for="question3answer2">Medellín
+          </label>
+          <input type="radio" onclick="validarPreguntaTres()" id="answer-2" name="question3" value="Medellín">
+          <label for="question3answer3">Cali
+          </label>
+          <input type="radio" onclick="validarPreguntaTres()" id="answer-3" name="question3" value="Cali">
+          <br></br>
+
+        </form>
+        <p id="resp"></p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <div class='inicio'>
+    <a class="init" href="index.html"> Volver a Inicio</a>
+  </div>
+</body>
+
+</html>

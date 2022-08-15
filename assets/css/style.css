@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    
+    font-family:Optima, sans-serif;
+    padding: 0;
+    background-color: rgb(145, 145, 241);
+    
+  }
+  
+  h1{
+    text-align:center;
+    margin:0;
+    background-color: rgb(89, 89, 223);
+    font-family:Bradley Hand, cursive;
+    }
+  
+  h2{
+   text-align:center;
+    }
+  
+  #answer1{
+    margin-top:10px;
+  }
+  .section1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #choice1{
+    margin-top:10px;
+  }
+  .section2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .image {
+    height: 40%;
+    width: 40%;
+  }
+  
+  #button{
+    opacity: 0%;
+  }
+  
+  #button1{
+    opacity: 0%;
+  }
+  
+  .container{
+    width:100%;
+    max-width: 1000px;
+    height:400px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin:auto;  
+    margin-bottom:70px;
+  }
+  
+  .container .card{
+    width:1800px;
+    height:450px;
+    border-radius: 20px;
+    box-shadow:2px 2px 4px 2px #102d84;
+    overflow:hidden;
+    margin:20px;
+    text-align: center;
+    margin-bottom:20px;
+    background-color: white;
+  }
+  
+  .container .card img{
+    width:500px;
+    height:280px;
+  }
+  form{
+    margin-top:20px;
+  }
+  
+  p{
+    color: #bb3a3a;
+    
+  }
+  
+  a.init{
+    text-decoration: none;
+    font-size:20px;
+    font-family:Optima, sans-serif ;
+    color: black;
+    
+  }
+  .inicio{
+    align-content: center;
+    text-align:center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+  }
+  
+  
+  /*index*/
+  a.link{
+    text-decoration: none;
+    font-family: Luminari, fantasy;
+    color: royalblue;
+    letter-spacing:2px;
+    
+  }
+  #name{
+    background-color: white;
+    border-style:solid ;
+    height: 40px;
+    border-radius: 5px;
+    font-size:15px ;
+    padding-left: 9px;
+    
+  }
+  
+  label, textname{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  } 
+  
+  .play{
+    width: 60px;
+  }
+  
+ 
+  
